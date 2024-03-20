@@ -1,0 +1,31 @@
+# Ignore build directory
+/build/
+
+# Ignore CMake generated files
+CMakeFiles/
+*.cmake
+Makefile
+
+# Ignore compiled files
+*.o
+*.so
+*.a
+*.dll
+*.lib
+*.exe
+*.out
+
+# Ignore IDE specific files
+.idea/
+*.swp
+*.swo
+*.swn
+*.suo
+*.user
+*.userprefs
+*.projekt
+*.bak
+*.pyc
+*.pyo
+*.settings/
+*.vscode/
