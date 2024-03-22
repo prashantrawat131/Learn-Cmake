@@ -1,0 +1,9 @@
+/* 
+
+This file is just created to avoid errors.
+
+Without this file I was unable to use it in the main.cpp file.
+
+This file has the name as the library may thats why.
+
+ */
