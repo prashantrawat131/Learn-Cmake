@@ -49,6 +49,17 @@
 
 13. If everything works, you are good to go. You can now start writing your code and build it using cmake.
 
+## What I learned
 
+- Cmake initially creates a build configuration file for the project. This happens when we use the command:
+    ```bash
+    cmake ..
+    ```
+    In this command, we are inside the build folder which is inside the main project root folder. The .. in the command tells cmake to look for the CMakeLists.txt file in the parent directory of the build folder.
 
+- Cmake then uses the build configuration file to build the project. This happens when we use the command:
+    ```bash
+    cmake --build .
+    ```
+    In this command, we are inside the build folder which is inside the main project root folder. The . in the command tells cmake to look for the build configuration file in the current directory. Cmake then uses the build configuration file to build the project in the current directory which is the build directory. Sometimes it is directly as main.exe or in a Debug folder as main.exe.
 

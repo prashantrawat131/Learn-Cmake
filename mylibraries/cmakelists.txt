@@ -1,3 +1,6 @@
+# This is the cmakelists file for mylibrary.
+# The main cmakelists file will find this file and build the library.
+
 cmake_minimum_required(VERSION 3.29.0)
 
 project(mylibrary)

@@ -6,4 +6,10 @@ Without this file I was unable to use it in the main.cpp file.
 
 This file has the name as the library may thats why.
 
+
+
+
+Now comming to the library part. I have two components in this library.
+sqrt and pow. 
+These two have their header files and implementations in the mylibraries folder.
  */
